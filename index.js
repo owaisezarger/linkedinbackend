@@ -25,3 +25,4 @@ app.listen(process.env.Port, async () => {
 
   console.log({ msg: `Server is Running on ${process.env.Port}` });
 });
+//backend works properly in local environment, when deployed unable to load data due to some ip address error"
